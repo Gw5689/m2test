@@ -7,6 +7,7 @@
 </head>
 <body>
 	<h1>jsp방식 구구단</h1>
+	<div>안녕하세요</div>
 	<%
 		// getParameter로 문자열을 받아와서 받아온 문자열을 (static 메소드)Integer.parseInt(static은 클래스 이름으로 호출)로 int로 형 변환한다.
 		int dan = Integer.parseInt(request.getParameter("dan"));
